@@ -1,0 +1,64 @@
+{
+  "uid" : "ec1bcff96781fdf7",
+  "name" : "\"after each\" hook for My Login application",
+  "fullName" : "My Login application.\"after each\" hook for My Login application",
+  "historyId" : "129fc95508feead586cf70ed288f60d6",
+  "time" : {
+    "start" : 1623395086950,
+    "stop" : 1623395110806,
+    "duration" : 23856
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n                  (Session info: chrome=91.0.4472.77)",
+  "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=91.0.4472.77)\n                    at Object.getErrorFromResponseBody (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Element.wrapCommandFn (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after each\" hook for My Login application"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ec1bcff96781fdf7.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

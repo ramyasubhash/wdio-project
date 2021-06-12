@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623395086950' stop='1623395110807'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1623395086950' status='broken' stop='1623395110806'>
+            <name>"after each" hook for My Login application</name>
+            <title>"after each" hook for My Login application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=91.0.4472.77)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=91.0.4472.77)
+                    at Object.getErrorFromResponseBody (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Element.wrapCommandFn (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.wrapCommandFn (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.wrapCommandFn (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.wrapCommandFn (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.wrapCommandFn (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\@wdio\utils\build\shim.js:78:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

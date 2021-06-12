@@ -1,0 +1,141 @@
+{
+  "uid" : "3deaedd82c905596",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "b6a20a3b29c37278d477109a6e17b255",
+  "time" : {
+    "start" : 1623398602261,
+    "stop" : 1623398632034,
+    "duration" : 29773
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f2e3d261481939b6",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//ul[@class=\"nav\"]//li[2]\" because element wasn't found",
+      "time" : {
+        "start" : 1623398384366,
+        "stop" : 1623398414702,
+        "duration" : 30336
+      }
+    }, {
+      "uid" : "b34aec5733c73e2e",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//ul[@class=\"nav\"]//li[2]\" because element wasn't found",
+      "time" : {
+        "start" : 1623398309456,
+        "stop" : 1623398338198,
+        "duration" : 28742
+      }
+    }, {
+      "uid" : "b1b7568a0660cacf",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//ul[@class=\"nav\"]//li[2]\" because element wasn't found",
+      "time" : {
+        "start" : 1623398222080,
+        "stop" : 1623398258554,
+        "duration" : 36474
+      }
+    }, {
+      "uid" : "b3f21ce0da2b8302",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623395366082,
+        "stop" : 1623395393233,
+        "duration" : 27151
+      }
+    }, {
+      "uid" : "67ac200176e5de86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623394166907,
+        "stop" : 1623394195916,
+        "duration" : 29009
+      }
+    }, {
+      "uid" : "7291df40d6fd4c42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623392927509,
+        "stop" : 1623392955696,
+        "duration" : 28187
+      }
+    }, {
+      "uid" : "aff16bbed453c305",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391480739,
+        "stop" : 1623391506418,
+        "duration" : 25679
+      }
+    }, {
+      "uid" : "bce19e06fd2747cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623390620384,
+        "stop" : 1623390654635,
+        "duration" : 34251
+      }
+    }, {
+      "uid" : "a43a475f8f366851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623376107840,
+        "stop" : 1623376132554,
+        "duration" : 24714
+      }
+    }, {
+      "uid" : "83a0a51ab32bf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623375640378,
+        "stop" : 1623375670189,
+        "duration" : 29811
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3deaedd82c905596.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

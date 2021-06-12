@@ -1,0 +1,21 @@
+[ {
+  "uid" : "ec1bcff96781fdf7",
+  "name" : "\"after each\" hook for My Login application",
+  "time" : {
+    "start" : 1623395086950,
+    "stop" : 1623395110806,
+    "duration" : 23856
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3deaedd82c905596",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1623398602261,
+    "stop" : 1623398632034,
+    "duration" : 29773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

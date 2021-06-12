@@ -1,0 +1,58 @@
+{
+  "uid" : "b34aec5733c73e2e",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "b6a20a3b29c37278d477109a6e17b255",
+  "time" : {
+    "start" : 1623398309456,
+    "stop" : 1623398338198,
+    "duration" : 28742
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"//ul[@class=\"nav\"]//li[2]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"//ul[@class=\"nav\"]//li[2]\" because element wasn't found\n                    at Object.implicitWait [as default] (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at Element.elementErrorHandlerCallbackFn (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\webdriverio\\build\\middlewares.js:19:29)\n                    at Element.wrapCommandFn (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at DashboardPage.landOnStopWords (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\test\\pageobjects\\/dashboard.page.js:23:9)\n                    at Context.<anonymous> (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\test\\specs\\/example.e2e.js:17:9)\n                    at Context.executeAsync (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (D:\\ramya\\vscode_workspace\\WebdriverIo-MochaBDD\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b34aec5733c73e2e.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

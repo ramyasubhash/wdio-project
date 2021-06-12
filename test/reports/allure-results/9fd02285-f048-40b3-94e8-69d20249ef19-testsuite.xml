@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623398384366' stop='1623398414704'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1623398384366' status='broken' stop='1623398414702'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//ul[@class="nav"]//li[2]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//ul[@class="nav"]//li[2]" because element wasn't found
+                    at Object.implicitWait [as default] (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\webdriverio\build\middlewares.js:19:29)
+                    at Element.wrapCommandFn (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at DashboardPage.landOnStopWords (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\test\pageobjects\/dashboard.page.js:23:9)
+                    at Context.&lt;anonymous> (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\test\specs\/example.e2e.js:17:9)
+                    at Context.executeAsync (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (D:\ramya\vscode_workspace\WebdriverIo-MochaBDD\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

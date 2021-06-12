@@ -1,0 +1,165 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "b1b7568a0660cacf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1623398222080,
+        "stop" : 1623398258554,
+        "duration" : 36474
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "bce19e06fd2747cc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623390620384,
+        "stop" : 1623390654635,
+        "duration" : 34251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b3f21ce0da2b8302",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623395366082,
+        "stop" : 1623395393233,
+        "duration" : 27151
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "f2e3d261481939b6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1623398384366,
+        "stop" : 1623398414702,
+        "duration" : 30336
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "7291df40d6fd4c42",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623392927509,
+        "stop" : 1623392955696,
+        "duration" : 28187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "a43a475f8f366851",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623376107840,
+        "stop" : 1623376132554,
+        "duration" : 24714
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "83a0a51ab32bf3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623375640378,
+        "stop" : 1623375670189,
+        "duration" : 29811
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "\"after each\" hook for My Login application",
+      "uid" : "ec1bcff96781fdf7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1623395086950,
+        "stop" : 1623395110806,
+        "duration" : 23856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "67ac200176e5de86",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623394166907,
+        "stop" : 1623394195916,
+        "duration" : 29009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "aff16bbed453c305",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391480739,
+        "stop" : 1623391506418,
+        "duration" : 25679
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "3deaedd82c905596",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623398602261,
+        "stop" : 1623398632034,
+        "duration" : 29773
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b34aec5733c73e2e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1623398309456,
+        "stop" : 1623398338198,
+        "duration" : 28742
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
+}

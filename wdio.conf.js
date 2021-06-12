@@ -1,4 +1,7 @@
 exports.config = {
+    // ...
+
+    // ...
     //
     // ====================
     // Runner Configuration
@@ -136,7 +139,19 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+    //commented by ramya
+    //reporters: ['spec'],
+
+    reporters: [
+        [
+            'allure',
+            {
+                outputDir: './test/reports/allure-results',
+                disableWebdriverStepsReporting: true,
+                disableWebdriverScreenshotsReporting: true,
+            },
+        ],
+    ],
 
     //
     // Options to be passed to Mocha.
@@ -207,8 +222,9 @@ exports.config = {
     /**
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-    // beforeTest: function (test, context) {
-    // },
+    beforeTest: function (test, context) {
+        browser.maximizeWindow()
+    },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)
@@ -224,8 +240,13 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterStep: function (
+        test,
+        context,
+        { error, result, duration, passed, retries }
+    ) {
+        browser.takeScreenshot()
+    },
 
     /**
      * Hook that gets executed after the suite has ended

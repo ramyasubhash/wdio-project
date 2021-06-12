@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element not interactable\n                  (Session info: chrome=91.0.4472.77)",
+      "children" : [ {
+        "name" : "\"after each\" hook for My Login application",
+        "uid" : "ec1bcff96781fdf7",
+        "parentUid" : "154b38eca0baff22299353b6a771d325",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623395086950,
+          "stop" : 1623395110806,
+          "duration" : 23856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-91.0.4472.77" ]
+      } ],
+      "uid" : "154b38eca0baff22299353b6a771d325"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "\"after each\" hook for My Login application",
+      "uid" : "ec1bcff96781fdf7",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "broken",
+      "time" : {
+        "start" : 1623395086950,
+        "stop" : 1623395110806,
+        "duration" : 23856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "3deaedd82c905596",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623398602261,
+        "stop" : 1623398632034,
+        "duration" : 29773
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "f43874cc36d1c5833cbb332fc53460ce"
+  } ]
+}

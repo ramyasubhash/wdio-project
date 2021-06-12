@@ -19,6 +19,7 @@ class DashboardPage {
 
     async landOnStopWords() {
         await (await this.dashboard).isDisplayed()
+        browser.pause(3000)
         await (await this.dataMenu).isDisplayed()
         await (await this.dataMenu).click()
         await (await this.stopWordsMenu).click()
